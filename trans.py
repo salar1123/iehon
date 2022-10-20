@@ -7,7 +7,7 @@ from help import *
 tran = Translator()
 
 
-@sedthon.on(events.NewMessage(pattern=r"\.ترجمة الى العربية", outgoing=True))
+@rickthon.on(events.NewMessage(pattern=r"\.ترجمة الى العربية", outgoing=True))
 async def _(event):
     reply_message = await event.get_reply_message()
     mes = reply_message.text
@@ -15,7 +15,7 @@ async def _(event):
     await event.edit(res.text)
 
 
-@sedthon.on(events.NewMessage(pattern=r"\.ترجمة الى الانجليزية", outgoing=True))
+@rickthon.on(events.NewMessage(pattern=r"\.ترجمة الى الانجليزية", outgoing=True))
 async def _(event):
     reply_message = await event.get_reply_message()
     mes = reply_message.text
@@ -23,7 +23,7 @@ async def _(event):
     await event.edit(res.text)
 
 
-@sedthon.on(events.NewMessage(pattern=r"\.ترجمة الى الفرنسية", outgoing=True))
+@rickthon.on(events.NewMessage(pattern=r"\.ترجمة الى الفرنسية", outgoing=True))
 async def _(event):
     reply_message = await event.get_reply_message()
     mes = reply_message.text
@@ -31,7 +31,7 @@ async def _(event):
     await event.edit(res.text)
 
 
-@sedthon.on(events.NewMessage(pattern=r"\.ترجمة الى الروسية", outgoing=True))
+@rickthon.on(events.NewMessage(pattern=r"\.ترجمة الى الروسية", outgoing=True))
 async def _(event):
     reply_message = await event.get_reply_message()
     mes = reply_message.text
@@ -39,7 +39,7 @@ async def _(event):
     await event.edit(res.text)
 
 
-@sedthon.on(events.NewMessage(pattern=r"\.ترجمة الى الاسبانية", outgoing=True))
+@rickthon.on(events.NewMessage(pattern=r"\.ترجمة الى الاسبانية", outgoing=True))
 async def _(event):
     reply_message = await event.get_reply_message()
     mes = reply_message.text
@@ -47,11 +47,11 @@ async def _(event):
     await event.edit(res.text)
 
 
-@sedthon.on(events.NewMessage(pattern=r"\.الترجمة", outgoing=True))
+@rickthon.on(events.NewMessage(pattern=r"\.الترجمة", outgoing=True))
 async def _(event):
     await event.edit(trans)
 
 
-@sedthon.on(events.NewMessage(pattern=r"\.اللغات", outgoing=True))
+@rickthon.on(events.NewMessage(pattern=r"\.اللغات", outgoing=True))
 async def _(event):
     await event.edit(langs)
