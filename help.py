@@ -7,10 +7,10 @@ commands = '''
 '''
 soursce = '''
 `- -- -- -- -- -- -- -- --`
-**Sedthon source is working ⚡
-Dev : 𝙩𝙤𝙥𝙖𝙘
-Dev : @IIITT
-Source Ch : @TRNTT**
+**rickthon source is working ⚡
+Dev : SAIF
+Dev : @P_J_I
+Source Ch : @RICKTHON**
 `-- -- -- -- -- -- -- -- --`
 '''
 trans = '''
