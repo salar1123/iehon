@@ -67,7 +67,7 @@ async def _(event):
     url.clear()
 
 
-@sedthon.on(events.NewMessage(outgoing=True, pattern="\.بحث (.*)"))
+@rickthon.on(events.NewMessage(outgoing=True, pattern="\.بحث (.*)"))
 async def _(event):
     msg = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 0)
     name = str(msg[0])
