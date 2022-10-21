@@ -570,12 +570,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ريك ثون
+**☆سيثون
 ☆ الاصدار : 1.2
 ☆ البنك : `{ms}`
 ☆ التاريخ : `{m9zpi}`
 ☆ الايدي : `{event.sender_id}`
-☆ريك ثون : @RickThon**
+☆ سيثون : @siethon**
 ''')
 
 
@@ -669,7 +669,7 @@ async def _(event):
     photo = await rickthon.get_profile_photos(DEVS[0])
     await rickthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @P_J_I
+      - @Z_6_l
 ''', reply_to=event)
 
 
@@ -678,7 +678,7 @@ async def _(event):
     photo = await rickthon.get_profile_photos(DEVS[0])
     await rickthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @P_J_I
+      - @Z_6_l
 ''', reply_to=event)
 
 
@@ -687,7 +687,7 @@ async def _(event):
     photo = await rickthon.get_profile_photos(DEVS[0])
     await rickthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @P_J_I
+      - @Z_6_l
 ''', reply_to=event)
 
 
@@ -696,7 +696,7 @@ async def _(event):
     photo = await rickthon.get_profile_photos(DEVS[0])
     await rickthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @P_J_I
+      - @Z_6_l
 ''', reply_to=event)
 
 
