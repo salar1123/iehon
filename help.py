@@ -8,9 +8,9 @@ commands = '''
 soursce = '''
 `- -- -- -- -- -- -- -- --`
 **rickthon source is working ⚡
-Dev : SAIF
-Dev : @P_J_I
-Source Ch : @RICKTHON**
+Dev : SALAR
+Dev : @Z_6_l
+Source Ch : @siethon**
 `-- -- -- -- -- -- -- -- --`
 '''
 trans = '''
